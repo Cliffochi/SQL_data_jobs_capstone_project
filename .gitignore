@@ -1,0 +1,14 @@
+# Ignore database files
+*.db
+*.sqlite
+*.sql-journal
+
+# Ignore environment files
+.env
+*.DS_Store
+
+# Ignore log and temporary files
+*.log
+*.tmp
+__pycache__/
+*.pyc
