@@ -12,3 +12,6 @@
 *.tmp
 __pycache__/
 *.pyc
+
+# Ignore these folders
+csv_file/
