@@ -1,3 +1,11 @@
+/*
+This SQL query retrieves the top 25 most in-demand and highest-paying skills 
+required for remote Data Scientist job postings, based on job postings data. 
+It provides insights into the demand (number of job postings) and average 
+salary associated with each skill.
+*/
+
+
 WITH skills_demand AS (
     SELECT 
         skills_dim.skill_id,
